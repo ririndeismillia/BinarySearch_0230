@@ -46,7 +46,6 @@ void bubbleSortArray()
                 element[j + 1] = temp;
             }
         }
-    } 
-    
-    
+        pass++;
+    } while (pass <= nPanjnag - 1);
 }
