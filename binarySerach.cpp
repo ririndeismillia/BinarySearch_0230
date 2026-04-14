@@ -84,7 +84,7 @@ void binarySearch()
 
         do
         {
-            int mid = (low + high) / 2
+            int mid = (low + high) / 2;
 
             if (element[mid] == x)
             {
@@ -109,9 +109,15 @@ void binarySearch()
         }
 
         cout << "\nIngin mencari lagi? (y/n): ";
-        cin >> ulangi;
+        cin >> ulang;
         
     } while (ulang == 'y' || ulang == 'Y');
-    
-    
+}
+
+int main()
+{
+    input();
+    bubbleSortArray();
+    display();
+    binarySearch();
 }
