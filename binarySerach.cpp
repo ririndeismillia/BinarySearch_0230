@@ -21,7 +21,7 @@ void input()
             cout << "\n[!] Jumlah elemen tidak boleh lebih dari 10. Silahkan coba lagi.\n";
         }
     }
-    cout << "\==============================================\n";
+    cout << "\n=============================================\n";
     cout << "          Masukkan Eleman Array                 \n";
     cout << "=================================================\n";
 
@@ -47,7 +47,7 @@ void bubbleSortArray()
             }
         }
         pass++;
-    } while (pass <= nPanjnag - 1);
+    } while (pass <= nPanjang - 1);
 }
 
 void display()
@@ -56,10 +56,29 @@ void display()
     cout << " Element Array Setelah Diurutkan (Asc)\n";
     cout << "======================================\n";
 
-    for (int j + 0; j < nPanjang; j++)
+    for (int j = 0; j < nPanjang; j++)
     {
         cout << element[j];
         if (j < nPanjang - 1)
-        
+        {
+            cout << " -> ";
+        }
     }
+    cout << endl;
+}
+
+void binarySearch()
+{
+    char ulang;
+    do
+    {
+        cout << "\n==================================\n";
+        cout << "      Pencarian Binary Search       \n";
+        cout <<"=====================================\n";
+
+        cout << "Masukkan element yang ingin dicari: ";
+        cin >> x;
+    } 
+    
+    
 }
