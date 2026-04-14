@@ -88,7 +88,7 @@ void binarySearch()
 
             if (element[mid] == x)
             {
-                cout << "\n[✓] Elemen " << x << "ditemukan pada indeks " << midd << "\n";
+                cout << "\n[✓] Elemen " << x << "ditemukan pada indeks " << mid << "\n";
                 return;
             }
 
